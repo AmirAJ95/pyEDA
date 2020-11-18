@@ -1,7 +1,7 @@
 # pyEDA
 This is pyEDA v.2.0.
 <br />This package includes all you need for Electrodermal Activity analysis also known as GSR. It contains preprocessing of the EDA signal and its feature extraction. Features are extracted using statistical and automatic methods.
-<br />Autoencoder is used to extract the automatic featues.
+<br />Convolutional autoencoder is used to extract the automatic featues.
 
 # Data Collection
 All the plots and the data collected for this package are collected from Shimmer GSR+ wearable sensor with 128 Hz frequency sampling rate. 
