@@ -76,20 +76,14 @@ automatic_features = process_automatic(eda)
 Here you can find the link to different notebooks about all the aspects of analysis of the GSR signal. These documentations include information about preprocessing and feature extraction of EDA signal. For windowing and segmentations, we use the same algorithm used in heartPy library.
 <br />
 <br />
-These show how to handle various analysis tasks with pyEDA, from noisy data collected from Shimmer GSR+.
+These show how to handle various analysis tasks with pyEDA, from a random generated GSR data.
 <br />
 <br />
-Here you can find the list of notebooks starting from preprocessing of EDA signal to extracting its features.
-* [GSR preprocessing](documentations/GSRPreprocessing/GSR_Preprocessing.ipynb), a notebook explaining preprocessing part of GSR.
-  * Downsampling
-  * Moving Window Averaging
-  * Normalization
-  * Extracting tonic and phasic components of signal using cvxPDA.py.
-  * Butterworth Low pass filter
-* [GSR feature extraction](documentations/GSRFeatureExtraction/GSR_Feature_Extraction.ipynb), a notebook explaining feature extraction of GSR.
-  * Number of peaks
-  * Maximum value of GSR
-  * Mean value of GSR
+Here you can find the list of notebooks for feature extraction of EDA signal:
+* [Statistical Feature Extraction](documentations/GSRStatFeatureExtraction/GSRStatFeatureExtraction.ipynb), a notebook explaining statistical feature extraction of GSR signal.
+  
+* [Automatic Feature Extraction](documentations/GSRAutoFeatureExtraction/GSRAutoFeatureExtraction.ipynb), a notebook explaining automatic feature extraction of GSR using an autoencoder.
+
 # Citation
 ```
 GSR Analysis for Stress: Development and Validation of an Open Source Tool for Noisy Naturalistic GSR Data
