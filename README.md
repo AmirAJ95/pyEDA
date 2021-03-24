@@ -73,7 +73,7 @@ automatic_features = process_automatic(eda)
 <br />
 
 # Documentation
-Here you can find the link to different notebooks about all the aspects of analysis of the GSR signal. These documentations include information about preprocessing and feature extraction of EDA signal. For windowing and segmentations of statistical feature extraction part, we use the same algorithm used in heartPy library.
+Here you can find the link to different notebooks about all the aspects of analysis of the GSR signal. These documentations include information about preprocessing and feature extraction of EDA signal.
 <br />
 <br />
 These show how to handle various analysis tasks with pyEDA, from a random generated GSR data.
